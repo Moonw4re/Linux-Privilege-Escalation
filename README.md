@@ -150,6 +150,51 @@ This project highlights the importance of combining vulnerability assessment wit
 
 ---
 
+## 08.1 // Proof of Concept
+
+### 01 - SSH Access
+
+The SSH connection between Kali Linux and the Ubuntu target was established with standard user privileges.
+
+<img src="./IMG_7913.png" width="100%"/>
+
+### 02 - Kernel Exploit Acquisition
+
+I obtained the kernel exploit associated with CVE-2018-18955 for controlled security testing.
+
+<img src="./IMG_7914.png" width="100%"/>
+
+### 03 - Local HTTP Server
+
+I configured a local HTTP server to support file sharing within the laboratory environment.
+
+<img src="./IMG_7915.png" width="100%"/>
+
+### 04 - Exploit Compilation
+
+The required dependencies were configured, and the exploit was successfully compiled.
+
+<img src="./IMG_7916.png" width="100%"/>
+
+### 05 - Root Access Confirmation
+
+Successful privilege escalation was confirmed through root access.
+
+<img src="./IMG_7917.png" width="100%"/>
+
+### 06 - Lynis Security Audit
+
+A security audit was conducted using Lynis to evaluate system weaknesses.
+
+<img src="./IMG_7918.png" width="100%"/>
+
+### 07 - System Hardening Findings
+
+The audit results highlighted security weaknesses and potential system hardening improvements.
+
+<img src="./IMG_7919.png" width="100%"/>
+
+---
 ## 09 // Technical Challenges
 
 <table>
